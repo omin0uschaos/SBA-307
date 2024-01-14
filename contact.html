@@ -5,6 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
     <title>SBA 307</title>
+    <Style>
+        table, td, tr, th  {
+            border: 2px solid white;
+            background-color: #e2e8e0;
+        }
+        td, th {
+            padding: 10px;
+        }
+        td:hover, th:hover {
+            background-color: #b6dda9;
+        }
+        table {
+            width: 100%;
+        }
+        #company-contact{
+            display: flex;
+            justify-content: center;
+        }
+        caption{
+            margin-bottom: 20px;
+            font-weight: 900;
+        }
+    </Style>
 </head>
 <body>
     <nav>
@@ -44,6 +67,45 @@
 
             </div>
         </div>
+        <div id="company-contact">
+        <table>
+            <caption>Contact Information for Our Team</caption>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Position</th>
+                    <th>Phone Number</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Lyra Keppler</td>
+                    <td>Chief Hydro Officer</td>
+                    <td>+ENC-401-550-1234</td>
+                    <td>lyra.keppler@AquaNex.Enc</td>
+                </tr>
+                <tr>
+                    <td>Cosmo Trent</td>
+                    <td>Lead Systems Engineer</td>
+                    <td>+ENC-401-550-5678</td>
+                    <td>cosmo.trent@AquaNex.Enc</td>
+                </tr>
+                <tr>
+                    <td>Nova Selene</td>
+                    <td>Environmental Specialist</td>
+                    <td>+ENC-401-550-9101</td>
+                    <td>nova.selene@AquaNex.Enc</td>
+                </tr>
+                <tr>
+                    <td>Orion Nash</td>
+                    <td>Product Designer</td>
+                    <td>+ENC-401-550-1121</td>
+                    <td>orion.nash@AquaNex.Enc</td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
 
     </main>
     
@@ -78,6 +140,7 @@
                 <a href="http://facebook.com"><img src="/images/facebookicon.svg" alt="Facebook"></a><a href="http://instagram.com"><img src="/images/instagramicon.svg" alt="Instagram"></a><a href="http://twitter.com"><img src="/images/twittericon.svg" alt="Twitter/X"></a>
             </div>
         </div>
+        
     </footer>
 </body>
 </html>
